@@ -11,3 +11,9 @@ font-family: 'Montserrat', sans-serif;
 font-size: 12rem,
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    padding-left: 20em;
+
+}
