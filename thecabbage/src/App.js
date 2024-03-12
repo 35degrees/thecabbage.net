@@ -226,14 +226,6 @@ function GroceryPage({ onGroceryAuth, onSetLanding, onGroceryReset }) {
 		if (confirmed) setItemList([])
 	}
 
-	function onToggleItem(id) {
-		setItemList((items) =>
-			items.map((item) =>
-				item.id === id ? { ...item, bought: !item.bought } : item
-			)
-		)
-	}
-
 	return (
 		<>
 			<span className="grocery-x" onClick={onGroceryReset}>
