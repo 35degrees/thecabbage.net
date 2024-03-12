@@ -209,7 +209,7 @@ function PasswordAuthenticator({ onPasswordAuth, landing, onPasswordReset }) {
 function GroceryPage({ onGroceryAuth, onSetLanding, onGroceryReset }) {
 	const [itemList, setItemList] = useState([])
 	const [item, setItem] = useState('')
-	const date = new Date()
+	// const date = new Date()
 	// const id = date.getMilliseconds()
 	// console.log(id)
 
